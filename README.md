@@ -1,24 +1,22 @@
 # Simple-TO-DO
-A simple TODO app built with HTML, CSS, and JavaScript using GPT4
+A simple TODO app built with HTML, CSS, and JavaScript using GPT4, see [Demo](https://e96031413.github.io/Simple-TO-DO/).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30921855/234185819-965d5a7d-bb41-44ae-ab88-ce70c44e10bd.png" alt="Login Page"/>
 </p>
 <p align="center">
-  (a.) Login page
+  (a) Login page
 </p>
 
-# 
+#
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30921855/234185937-9da6287d-0e22-4d7a-a0e7-87a711a7620b.png" alt="TO do list page"/>
 </p>
 
 <p align="center">
-  (b.) To-do list page
+  (b) To-do list page
 </p>
-
-#
 
 ## Features
 - Simple login page
