@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Login page -->
+      <div id="buttons-container">
+          <button id="dark-mode-toggle">Dark Mode</button>
+      </div>
+      <div id="login-page">
+        <h1>Login</h1>
+        <form id="login-form">
+          <input type="text" placeholder="Username" id="username" />
+          <input type="password" placeholder="Password" id="password" />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <!-- Todo app -->
+      <div id="todo-app" style="display: none;">
+        <h1>Todo List</h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Add a new todo" id="todo-input" />
+          <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <footer>
+        <p>&copy; 2023 ChatGPT</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

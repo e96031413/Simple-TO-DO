@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.red-text {
+  color: red;
+}
+
+.todo-buttons {
+  float: right;
+  margin-left: 10px;
+}
+
+.todo-buttons button {
+  margin-left: 5px;
+}
+
+.delete-all-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+.todo-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #1e90ff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #007fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edit-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.save-btn,
+.cancel-btn,
+.delete-btn {
+  margin-left: 5px;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="password"],
+.dark-mode button {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+.dark-mode .container {
+  background-color: #2a2a2a;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
